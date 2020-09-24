@@ -1,5 +1,7 @@
 def square_array(array)
+  counter = 0 
   array.each do |n|
-    n = n**2
+    array[counter] = n**2 
+    counter += 1 
   end
 end
